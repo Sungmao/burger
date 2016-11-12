@@ -54,19 +54,31 @@
 
   </div>
 
+  <div class="row">
+    <div class="col-xs-6 col-md-4"> <hr> </div>
 
-  <form class="create-update-form" action="burgers/create" method="POST">
+    <div class="col-xs-6 col-md-4"> <hr>
+  
 
-    <div class="form-group">
-      <label for="ca">burger Name:</label>
-      <input type="text" id="ca" name="burger_name">
+      <form class="create-update-form" action="burgers/create" method="POST">
+        <p>Enter a burger you want to eat Click the "Submit" button.</p> 
+        <div class="form-group">
+          <label for="ca">Burger Name:</label>
+          <input type="text" id="ca" name="burger_name">
+        </div>
+
+        <button type="submit">Submit</button>
+
+      </form>
+
+       
+
     </div>
 
-    <button type="submit">Add burger</button>
+    <div class="col-xs-6 col-md-4"> <hr> </div>
 
-  </form>
+  </div>
 
-  <p>Enter a burger you want to eat Click the "Submit" button.</p>  
 
 </div>
 
