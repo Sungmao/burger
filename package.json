@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Homework Node Express Handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "NA"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sungmao/burger.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Handlebars"
+  ],
+  "author": "Sung Mao Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sungmao/burger/issues"
+  },
+  "homepage": "https://github.com/Sungmao/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.12.0"
+  }
+}
